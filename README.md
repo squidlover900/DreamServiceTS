@@ -13,7 +13,7 @@ Destroys container for the specified Dream.
 Destroys all containers.
 
 ## ContainerObject
-Holds all the information and methods for a dream.
+Holds all the information and methods for a dream. 
 ```lua
 ContainerObject.Data = {
   Private = false,
@@ -22,11 +22,16 @@ ContainerObject.Data = {
 ContainerObject.Map
 ```
 ### ContainerObject:LoadMap()
+Loads the map of the dream into the workspace. 
 
 ### ContainerObject:Start()
+Runs the Start function specified in the dreams "Main" module.
 
 ### ContainerObject:End()
+Removes all players from the dream, and destroys the dream aswell.
 
-### ContainerObject:AddPlayer()
+### ContainerObject:AddPlayer(Player : Player)
+Adds specified player to the dream
 
-### ContainerObject:RemovePlayer()
+### ContainerObject:RemovePlayer(Player : Player)
+Removes specified player from the dream.
