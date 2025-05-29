@@ -1,7 +1,7 @@
 # DreamService
 ## Documentation
 ### DreamService:CreateContainer(Dream : Folder) -> ContainerObject
-Creates and returns a new ContainerObject for the specified Dream. If there is already a ContainerObject for the specified dream, return that ContaienrObject instead.
+Creates and returns a new ContainerObject for the specified Dream. If there is already a ContainerObject for the specified dream, return that ContainerObject instead.
 
 ### ContainerObject
 ```lua
