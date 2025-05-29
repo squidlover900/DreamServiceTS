@@ -62,6 +62,7 @@ Dream:Start()
 ```
 
 When it's time for a dream to end, use **Dream:End()**, this will handle all cleaning up of the dream, and wake up all players currently in that dream.
+
 Example:
 ```lua
 local Dream = DreamService.CreateContainer(DreamsFolder.Campfire)
