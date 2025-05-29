@@ -1,4 +1,6 @@
 # DreamService
+## Creating a Dream
+Dreams are folders that contain everything related to that dream. All assets, scripts, and buildings should be organized and setup inside the folder. On top of everything, a module script called "Main" should be held inside
 ## Documentation
 ### DreamService:CreateContainer(Dream : Folder) -> ContainerObject
 Creates and returns a new ContainerObject for the specified Dream. If there is already a ContainerObject for the specified dream, return that ContainerObject instead.
