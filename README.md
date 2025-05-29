@@ -14,6 +14,7 @@ Example Folder:
     - 📜 Main (ModuleScript)
     - 🏢 Map (Model)
         - 📦 Spawn (Part)
+        - Rest of map below -
 ```
 
 ## Documentation
