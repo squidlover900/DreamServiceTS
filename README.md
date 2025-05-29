@@ -89,6 +89,7 @@ Holds all the information and methods for a dream.
 ContainerObject.Data = {
   Private = false,
   CFrame = CFrame.new(),
+  CurrentCharacters = {}
 }
 ContainerObject.Map
 ```
