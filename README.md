@@ -1,5 +1,5 @@
 # DreamService
-## Creating a Dream (Basic)
+## Creating a Dream (Setup)
 Dreams are folders that contain everything related to that dream. All assets, scripts, and buildings should be organized and setup inside the folder.
 
 The folder should be the title of your dream *(AKA: Campfire)*
@@ -20,7 +20,7 @@ Example Folder:
         - Rest of map below -
 ```
 
-## Creating a Dream (Advanced)
+## Creating a Dream (Script)
 
 After creating the folder for the dream, you can now create a **Container** for the dream using the DreamService. In a ServerScript, call **DreamService:CreateContainer(DreamFolder)**
 
