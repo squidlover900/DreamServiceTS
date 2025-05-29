@@ -1,6 +1,8 @@
 # DreamService
 ## Documentation
-### ContainerObject ->
+### :CreateContainer(Dream : Folder) -> ContainerObject
+
+### ContainerObject
 ```lua
 ContainerObject.Data = {
   Private = false,
@@ -8,5 +10,12 @@ ContainerObject.Data = {
 }
 ContainerObject.Map
 ```
+### ContainerObject:LoadMap()
 
-### :CreateContainer(Dream : Folder) -> ContainerObject
+### ContainerObject:Start()
+
+### ContainerObject:End()
+
+### ContainerObject:AddPlayer()
+
+### ContainerObject:RemovePlayer()
