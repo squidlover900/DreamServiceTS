@@ -2,7 +2,7 @@
 ## Creating a Dream
 Dreams are folders that contain everything related to that dream. All assets, scripts, and buildings should be organized and setup inside the folder.
 
-The folder should be the title of your dream (AKA: Campfire)
+The folder should be the title of your dream *(AKA: Campfire)*
 
 A module script called "Main" should be held inside, with a function called Start() that should run when ContainerObject:Start() is called.
 
