@@ -17,6 +17,19 @@ Example Folder:
         - Rest of map below -
 ```
 
+After creating the folder for the dream, you can now create a **Container** for the dream using the DreamService. In a ServerScript, call **DreamService:CreateContainer(DreamFolder)**
+
+Example:
+```lua
+local Services = ServerConfig.Services
+local DreamsFolder = Storage.Dreams
+
+local DreamService = require(Services.DreamService)
+
+-- Main --
+local dream = DreamService.CreateContainer(DreamsFolder.Campfire)
+```	
+
 ## Documentation
 ### DreamService:CreateContainer(Dream : Folder) -> ContainerObject
 Creates and returns a new ContainerObject for the specified Dream. If there is already a ContainerObject for the specified dream, return that ContainerObject instead.
