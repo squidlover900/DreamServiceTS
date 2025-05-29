@@ -7,7 +7,7 @@ A part called "Spawn" should be inside the map, at the positon that the player s
 
 Example Folder:
 ```
-📁 Dream (Folder)
+📁 Campfire (Folder)
     -📜 Main (ModuleScript)
     -🏢 Map (Model)
         -📦 Spawn (Part)
