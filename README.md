@@ -4,16 +4,16 @@ Dreams are folders that contain everything related to that dream. All assets, sc
 
 The folder should be the title of your dream *(AKA: Campfire)*
 
-A module script called "Main" should be inside the folder, with a function, Main.Start(), that will run when ContainerObject:Start() is called.
+A module script called "Main" should be inside the folder, with a function, Main.Start(), that runs at the start of the dream.
 
-A part called "Spawn" should be inside the map, at the positon that the player should spawn at when ContainerObject:AddPlayer() is called.
+A part called "Spawn" should be inside the map in the positon that the player will spawn at when they enter the dream.
 
 Example Folder:
 ```
 📁 Campfire (Folder)
-    -📜 Main (ModuleScript)
-    -🏢 Map (Model)
-        -📦 Spawn (Part)
+    - 📜 Main (ModuleScript)
+    - 🏢 Map (Model)
+        - 📦 Spawn (Part)
 ```
 
 ## Documentation
