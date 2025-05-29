@@ -5,16 +5,11 @@ A module script called "Main" should be held inside, with a function called Star
 A part called "Spawn" should be inside the map, at the positon that the player should spawn at when ContainerObject:AddPlayer() is called.
 
 Example Folder:
-```mermaid
-sequenceDiagram
-    📁 Dream (Folder)->📜 Main (ModuleScript)
-    John-->>Alice: Great!
-    Alice-)John: See you later!
+```
 📁 Dream (Folder)
-- 📜 Main (ModuleScript)
-- 🏢 Map (Model)
--- 📦 Spawn (Part)
-
+    📜 Main (ModuleScript)
+    🏢 Map (Model)
+        📦 Spawn (Part)
 ```
 
 ## Documentation
