@@ -26,8 +26,7 @@ local DreamsFolder = Storage.Dreams
 
 local DreamService = require(Services.DreamService)
 
--- Main --
-local dream = DreamService.CreateContainer(DreamsFolder.Campfire)
+local Dream = DreamService.CreateContainer(DreamsFolder.Campfire)
 ```	
 
 ## Documentation
