@@ -22,7 +22,7 @@
     "prepublishOnly": "npm run build"
   },
   "keywords": [],
-  "author": "",
+  "author": "squidlover900, ZRatLord",
   "license": "ISC",
   "types": "out/index.d.ts",
   "files": [
