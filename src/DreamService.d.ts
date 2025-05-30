@@ -8,5 +8,5 @@ declare module "src/DreamService.lua" {
         CleanupContainers: () => void;
     }
     const DreamService: DreamService;
-    export = DreamService;
+    export { DreamService };
 }
