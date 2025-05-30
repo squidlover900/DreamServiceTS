@@ -104,3 +104,6 @@ Adds specified player to the dream
 
 ### ContainerObject:RemovePlayer(Player : Player)
 Removes specified player from the dream.
+
+### ContainerObject:PlayerAdded() : Player
+Detects when a player is added and returns who is added.
